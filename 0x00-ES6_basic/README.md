@@ -665,7 +665,7 @@ Score: **100.0%** (**Checks completed: 100.0%**)
 
 Rewrite the function `appendToEachArrayValue` to use ES6’s `for...of` operator. And don’t forget that `var` is not ES6-friendly.
 
-```
+```js
 export default function appendToEachArrayValue(array, appendString) {
   for (var idx in array) {
     var value = array[idx];
